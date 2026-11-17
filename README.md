@@ -1,6 +1,8 @@
 # 词间 英语学习器
 
-个人英语学习工具 1.6.7。网页版可直接打开；Android 安装包见 [GitHub Releases](https://github.com/anbaibai520/cijian-vocabulary/releases/latest)。离线基础功能无需API密钥；可选DeepSeek生成需自行配置。
+个人英语学习工具 1.6.8。网页版可直接打开；Android 安装包见 [GitHub Releases](https://github.com/anbaibai520/cijian-vocabulary/releases/latest)。离线基础功能无需API密钥；可选DeepSeek生成需自行配置。
+
+1.6.8 修正旧版手动 Supabase 配置遮蔽内置同步服务的问题；增加连接检查、旧会话恢复和真实首次合并结果提示。数据与设置增加 DeepSeek 一键补全词库：逐词处理、只填空字段、每词立即保存、支持停止和断点继续，相同输入复用缓存。
 
 1.6.7 取消到期复习每轮 24 题限制，只保留每日新词数量上限；长汉译在练习和列表中显示精简核心义，完整原文仍保存在词条详情。候选项统一显示汉译与词性或明确的待补充提示。DeepSeek 补全增加词条详情入口、完整使用引导和本机结果缓存：同一单词、释义与语境不会重复调用，生成结果先缓存，采纳字段后永久保存到词库。修复快速点按内置键盘时的重绘卡顿，并在同步登录失效时自动返回登录界面且不删除本机数据。
 
